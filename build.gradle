@@ -2,10 +2,21 @@ plugins {
 	id 'com.github.johnrengelman.shadow' version '8.1.1'
 	id 'com.palantir.git-version' version '2.0.0'
 	id 'java'
+  id 'org.checkerframework' version '0.6.35'
 }
 
 repositories {
 	mavenCentral()
+}
+
+apply plugin: 'org.checkerframework'
+checkerFramework {
+  checkers = [
+    'org.checkerframework.checker.optional.OptionalChecker',
+  ]
+  extraJavacArgs = [
+    '-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno'
+  ]
 }
 
 dependencies {
@@ -63,3 +74,5 @@ shadowJar {
 }
 
 defaultTasks 'clean', 'shadowJar'
+
+
