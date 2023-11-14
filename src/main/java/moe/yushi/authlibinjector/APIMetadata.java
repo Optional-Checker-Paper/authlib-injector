@@ -64,11 +64,11 @@ public class APIMetadata {
 
 	private String apiRoot;
 	private List<String> skinDomains;
-  @SuppressWarnings("optional.field") // optional-field : use of optional as a field
+  @SuppressWarnings("optional:optional.field") // optional-field : use of optional as a field
 	private Optional<PublicKey> decodedPublickey;
 	private Map<String, Object> meta;
 
-  @SuppressWarnings("optional.parameter") // optional-parameter : use of optional as a parameter
+  @SuppressWarnings("optional:optional.parameter") // optional-parameter : use of optional as a parameter
 	public APIMetadata(String apiRoot, List<String> skinDomains, Map<String, Object> meta, Optional<PublicKey> decodedPublickey) {
 		this.apiRoot = requireNonNull(apiRoot);
 		this.skinDomains = requireNonNull(skinDomains);
