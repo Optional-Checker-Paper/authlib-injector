@@ -1,0 +1,44 @@
+> Task :spotbugsMain
+M B FS: Format string should use %n rather than \n in moe.yushi.authlibinjector.internal.fi.iki.elonen.ChunkedOutputStream.write(byte[], int, int)  At ChunkedOutputStream.java:[line 83]
+M D SF: Switch statement found in moe.yushi.authlibinjector.internal.org.json.simple.parser.Yytoken.toString() where default case is missing  At Yytoken.java:[lines 62-85]
+H M VO: Increment of volatile field moe.yushi.authlibinjector.transform.PerformanceMetrics.classesSkipped in moe.yushi.authlibinjector.transform.ClassTransformer.transform(ClassLoader, String, Class, ProtectionDomain, byte[])  At ClassTransformer.java:[line 277]
+H M VO: Increment of volatile field moe.yushi.authlibinjector.transform.PerformanceMetrics.classesScanned in moe.yushi.authlibinjector.transform.ClassTransformer.transform(ClassLoader, String, Class, ProtectionDomain, byte[])  At ClassTransformer.java:[line 300]
+H C SA: Self assignment of field Yylex.zzMarkedPos in moe.yushi.authlibinjector.internal.org.json.simple.parser.Yylex.yylex()  At Yylex.java:[line 509]
+M D DLS: Dead store to offset in moe.yushi.authlibinjector.internal.org.json.simple.parser.Yylex.zzUnpackAction()  At Yylex.java:[line 91]
+M D DLS: Dead store to offset in moe.yushi.authlibinjector.internal.org.json.simple.parser.Yylex.zzUnpackRowMap()  At Yylex.java:[line 125]
+M D DLS: Dead store to offset in moe.yushi.authlibinjector.internal.org.json.simple.parser.Yylex.zzUnpackAttribute()  At Yylex.java:[line 238]
+M V MS: Public static moe.yushi.authlibinjector.transform.support.SkinWhitelistTransformUnit.getWhitelistedDomains() may expose internal representation by returning SkinWhitelistTransformUnit.WHITELISTED_DOMAINS  At SkinWhitelistTransformUnit.java:[line 61]
+M V MS: Public static moe.yushi.authlibinjector.transform.support.MainArgumentsTransformer.getVersionSeriesListeners() may expose internal representation by returning MainArgumentsTransformer.VERSION_SERIES_LISTENERS  At MainArgumentsTransformer.java:[line 126]
+M V MS: Public static moe.yushi.authlibinjector.transform.support.MainArgumentsTransformer.getArgumentsListeners() may expose internal representation by returning MainArgumentsTransformer.ARGUMENTS_LISTENERS  At MainArgumentsTransformer.java:[line 88]
+M V EI2: new moe.yushi.authlibinjector.yggdrasil.YggdrasilClient(YggdrasilAPIProvider, Proxy) may expose internal representation by storing an externally mutable object into YggdrasilClient.proxy  At YggdrasilClient.java:[line 55]
+M V EI2: new moe.yushi.authlibinjector.APIMetadata(String, List, Map, Optional) may expose internal representation by storing an externally mutable object into APIMetadata.meta  At APIMetadata.java:[line 73]
+M V EI: moe.yushi.authlibinjector.APIMetadata.getMeta() may expose internal representation by returning APIMetadata.meta  At APIMetadata.java:[line 86]
+M V EI: moe.yushi.authlibinjector.APIMetadata.getSkinDomains() may expose internal representation by returning APIMetadata.skinDomains  At APIMetadata.java:[line 82]
+M V EI2: new moe.yushi.authlibinjector.APIMetadata(String, List, Map, Optional) may expose internal representation by storing an externally mutable object into APIMetadata.skinDomains  At APIMetadata.java:[line 72]
+M V EI2: new moe.yushi.authlibinjector.httpd.URLProcessor(List, URLRedirector) may expose internal representation by storing an externally mutable object into URLProcessor.filters  At URLProcessor.java:[line 56]
+H I Dm: Found reliance on default encoding in moe.yushi.authlibinjector.httpd.LegacySkinAPIFilter.correctEncoding(String): new String(byte[])  At LegacySkinAPIFilter.java:[line 115]
+M V MS: moe.yushi.authlibinjector.AuthlibInjector.bootstrap(Instrumentation, String) may expose internal static state by storing a mutable object into a static field moe.yushi.authlibinjector.AuthlibInjector.instrumentation  At AuthlibInjector.java:[line 91]
+M V MS: Public static moe.yushi.authlibinjector.AuthlibInjector.getClassTransformer() may expose internal representation by returning AuthlibInjector.classTransformer  At AuthlibInjector.java:[line 367]
+H B RR: moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.readHeader() ignores result of java.io.BufferedInputStream.skip(long)  At HTTPSession.java:[line 140]
+H I Dm: Found reliance on default encoding in moe.yushi.authlibinjector.transform.support.YggdrasilKeyTransformUnit.verifyPropertySignature(String, String): String.getBytes()  At YggdrasilKeyTransformUnit.java:[line 66]
+M B PA: Primitive field moe.yushi.authlibinjector.Config.verboseLogging is public and set from inside the class, which makes it too exposed. Consider making it private to limit external accessibility.  At Logging.java:[line 76]
+M B PA: Primitive field moe.yushi.authlibinjector.Config.authlibLogging is public and set from inside the class, which makes it too exposed. Consider making it private to limit external accessibility.  At AuthlibInjector.java:[line 281]
+M B PA: Primitive field moe.yushi.authlibinjector.Config.printUntransformedClass is public and set from inside the class, which makes it too exposed. Consider making it private to limit external accessibility.  At ClassTransformer.java:[line 291]
+M B PA: Primitive field moe.yushi.authlibinjector.Config.dumpClass is public and set from inside the class, which makes it too exposed. Consider making it private to limit external accessibility.  At AuthlibInjector.java:[line 277]
+M B PA: Primitive field moe.yushi.authlibinjector.Config.ignoredPackages is public and set from inside the class, which makes it too exposed. Consider making it private to limit external accessibility.  At AuthlibInjector.java:[line 275]
+M B PA: Primitive field moe.yushi.authlibinjector.Config.mojangProxy is public and set from inside the class, which makes it too exposed. Consider making it private to limit external accessibility.  At AuthlibInjector.java:[line 239]
+M V MS: moe.yushi.authlibinjector.Config.verboseLogging isn't final and cannot be protected from malicious code  In Config.java
+M V MS: moe.yushi.authlibinjector.Config.authlibLogging should be package protected  In Config.java
+M V MS: moe.yushi.authlibinjector.Config.printUntransformedClass isn't final and cannot be protected from malicious code  In Config.java
+M V MS: moe.yushi.authlibinjector.Config.dumpClass should be package protected  In Config.java
+M V MS: moe.yushi.authlibinjector.Config.httpdDisabled should be package protected  In Config.java
+M V MS: moe.yushi.authlibinjector.Config.mojangProxy should be package protected  In Config.java
+M V MS: moe.yushi.authlibinjector.Config.ignoredPackages should be package protected  In Config.java
+M V MS: moe.yushi.authlibinjector.Config.mojangNamespace should be package protected  In Config.java
+M V MS: moe.yushi.authlibinjector.Config.legacySkinPolyfill should be package protected  In Config.java
+M V MS: moe.yushi.authlibinjector.Config.mojangAntiFeatures should be package protected  In Config.java
+M V MS: moe.yushi.authlibinjector.Config.profileKey should be package protected  In Config.java
+M V MS: moe.yushi.authlibinjector.Config.usernameCheck should be package protected  In Config.java
+M V MS: moe.yushi.authlibinjector.Config.noShowServerName should be package protected  In Config.java
+M V MS: moe.yushi.authlibinjector.Config.httpdPort isn't final and cannot be protected from malicious code  In Config.java
+SpotBugs ended with exit code 1
