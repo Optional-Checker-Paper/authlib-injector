@@ -1,0 +1,15 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/moe/yushi/authlibinjector/transform/ClassTransformer.java</file>
+  <line>290</line>
+  <module>authlib-injector.main</module>
+  <package>moe.yushi.authlibinjector.transform</package>
+  <entry_point TYPE="method" FQNAME="moe.yushi.authlibinjector.transform.ClassTransformer byte[] transform(java.lang.ClassLoader loader, java.lang.String internalClassName, java.lang.Class&lt;?&gt; classBeingRedefined, java.security.ProtectionDomain protectionDomain, byte[] classfileBuffer)" />
+  <problem_class id="OptionalContainsCollection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' contains array or collection</problem_class>
+  <description>'Optional' contains array &lt;code&gt;byte[]&lt;/code&gt;</description>
+  <highlighted_element>byte[]</highlighted_element>
+  <language>JAVA</language>
+  <offset>45</offset>
+  <length>6</length>
+</problem>
+</problems>

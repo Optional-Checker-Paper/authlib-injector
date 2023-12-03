@@ -239,6 +239,7 @@ public class ClassTransformer implements ClassFileTransformer {
 			cachedConstants = null;
 		}
 
+		@SuppressWarnings("OptionalContainsCollection") // intellij-suppression-optional-contains-collection
 		public Optional<byte[]> finish() {
 			if (appliedTransformers == null || appliedTransformers.isEmpty()) {
 				return Optional.empty();
@@ -262,6 +263,7 @@ public class ClassTransformer implements ClassFileTransformer {
 	}
 
 	@Override
+	@SuppressWarnings("OptionalContainsCollection") // intellij-suppression-optional-contains-collection
 	public byte[] transform(ClassLoader loader, String internalClassName, Class<?> classBeingRedefined, ProtectionDomain protectionDomain, byte[] classfileBuffer) throws IllegalClassFormatException {
 		if (internalClassName != null && classfileBuffer != null) {
 			try {

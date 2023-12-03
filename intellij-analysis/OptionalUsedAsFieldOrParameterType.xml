@@ -1,0 +1,28 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/moe/yushi/authlibinjector/APIMetadata.java</file>
+  <line>67</line>
+  <module>authlib-injector.main</module>
+  <package>moe.yushi.authlibinjector</package>
+  <entry_point TYPE="field" FQNAME="moe.yushi.authlibinjector.APIMetadata decodedPublickey" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;PublicKey&gt;&lt;/code&gt; used as type for field 'decodedPublickey'</description>
+  <highlighted_element>Optional&lt;PublicKey&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>9</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/moe/yushi/authlibinjector/APIMetadata.java</file>
+  <line>70</line>
+  <module>authlib-injector.main</module>
+  <package>moe.yushi.authlibinjector</package>
+  <entry_point TYPE="method" FQNAME="moe.yushi.authlibinjector.APIMetadata APIMetadata(java.lang.String apiRoot, java.util.List&lt;java.lang.String&gt; skinDomains, java.util.Map&lt;java.lang.String,java.lang.Object&gt; meta, java.util.Optional&lt;java.security.PublicKey&gt; decodedPublickey)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;PublicKey&gt;&lt;/code&gt; used as type for parameter 'decodedPublickey'</description>
+  <highlighted_element>Optional&lt;PublicKey&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>88</offset>
+  <length>19</length>
+</problem>
+</problems>

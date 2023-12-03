@@ -81,6 +81,8 @@ public class URLProcessor {
 		String path = matcher.group("path");
 
 		Optional<String> result = transform(protocol, domain, path);
+		// intellij-suppression-optional-optional-is-present
+		//noinspection OptionalIsPresent
 		if (result.isPresent()) {
 			log(DEBUG, "Transformed url [" + inputUrl + "] to [" + result.get() + "]");
 		}
