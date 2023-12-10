@@ -15,7 +15,11 @@ checkerFramework {
     'org.checkerframework.checker.optional.OptionalChecker',
   ]
   extraJavacArgs = [
-    '-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno'
+    '-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno',
+    '-AassumePure',
+    '-AwarnUnneededSuppressions'
+   ]
+   excludeTests = true
   ]
 }
 
