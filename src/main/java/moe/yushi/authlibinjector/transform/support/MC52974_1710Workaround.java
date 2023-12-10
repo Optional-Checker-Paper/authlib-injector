@@ -62,6 +62,7 @@ public class MC52974_1710Workaround {
 		}
 	}
 
+	@SuppressWarnings("optional:optional.null.comparison")  // optional-null-comparison
 	@CallbackMethod
 	public static Object accessGameProfile(Object gp, Object minecraftServer, boolean isNotchName) {
 		synchronized (markedGameProfiles) {

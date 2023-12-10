@@ -42,6 +42,7 @@ public class APIMetadata {
 	public static APIMetadata parse(String apiRoot, String metadataResponse) throws UncheckedIOException {
 		JSONObject response = asJsonObject(parseJson(metadataResponse));
 
+		@SuppressWarnings("optional:introduce.eliminate")  // introduce-eliminate
 		List<String> skinDomains =
 				ofNullable(response.get("skinDomains"))
 						.map(it -> asJsonArray(it).stream()
@@ -54,6 +55,7 @@ public class APIMetadata {
 						.map(JsonUtils::asJsonString)
 						.map(KeyUtils::parseSignaturePublicKey);
 
+		@SuppressWarnings("optional:introduce.eliminate")  // introduce-eliminate
 		Map<String, Object> meta =
 				ofNullable(response.get("meta"))
 						.map(it -> (Map<String, Object>) new TreeMap<>(asJsonObject(it)))

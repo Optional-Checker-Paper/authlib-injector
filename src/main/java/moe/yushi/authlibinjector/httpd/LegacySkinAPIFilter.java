@@ -99,6 +99,7 @@ public class LegacySkinAPIFilter implements URLFilter {
 		}
 	}
 
+	@SuppressWarnings("optional:introduce.eliminate")  // introduce-eliminate
 	private Optional<String> obtainTextureUrl(String texturesPayload, String textureType) throws UncheckedIOException {
 		JSONObject payload = asJsonObject(parseJson(texturesPayload));
 		JSONObject textures = asJsonObject(payload.get("textures"));
