@@ -42,7 +42,7 @@ public class APIMetadata {
 	public static APIMetadata parse(String apiRoot, String metadataResponse) throws UncheckedIOException {
 		JSONObject response = asJsonObject(parseJson(metadataResponse));
 
-		@SuppressWarnings("optional:introduce.eliminate")  // introduce-eliminate
+		@SuppressWarnings("optional:introduce.eliminate")  // style-introduce-eliminate
 		List<String> skinDomains =
 				ofNullable(response.get("skinDomains"))
 						.map(it -> asJsonArray(it).stream()
@@ -55,7 +55,7 @@ public class APIMetadata {
 						.map(JsonUtils::asJsonString)
 						.map(KeyUtils::parseSignaturePublicKey);
 
-		@SuppressWarnings("optional:introduce.eliminate")  // introduce-eliminate
+		@SuppressWarnings("optional:introduce.eliminate")  // style-introduce-eliminate
 		Map<String, Object> meta =
 				ofNullable(response.get("meta"))
 						.map(it -> (Map<String, Object>) new TreeMap<>(asJsonObject(it)))
@@ -66,11 +66,11 @@ public class APIMetadata {
 
 	private String apiRoot;
 	private List<String> skinDomains;
-	@SuppressWarnings("optional:optional.field") // optional-field
+	@SuppressWarnings("optional:optional.field") // style-optional-field
 	private Optional<PublicKey> decodedPublickey;
 	private Map<String, Object> meta;
 
-	@SuppressWarnings("optional:optional.parameter") // optional-parameter
+	@SuppressWarnings("optional:optional.parameter") // style-optional-parameter
 	public APIMetadata(String apiRoot, List<String> skinDomains, Map<String, Object> meta, Optional<PublicKey> decodedPublickey) {
 		this.apiRoot = requireNonNull(apiRoot);
 		this.skinDomains = requireNonNull(skinDomains);
