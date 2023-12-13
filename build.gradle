@@ -2,10 +2,35 @@ plugins {
 	id 'com.github.johnrengelman.shadow' version '8.1.1'
 	id 'com.palantir.git-version' version '2.0.0'
 	id 'java'
+	id 'org.checkerframework' version '0.6.35'
 }
 
 repositories {
 	mavenCentral()
+	maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+}
+
+apply plugin: 'org.checkerframework'
+checkerFramework {
+	checkers = [
+		'org.checkerframework.checker.optional.OptionalChecker',
+	]
+	extraJavacArgs = [
+		'-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno',
+		'-AassumePure',
+		'-AwarnUnneededSuppressions',
+    '-AassumeAssertionsAreEnabled'
+	]
+	excludeTests = true
+}
+ext.checkerFrameworkVersion = '3.41.1-SNAPSHOT'
+dependencies {
+	compileOnly "org.checkerframework:checker-qual:${checkerFrameworkVersion}"
+	testCompileOnly "org.checkerframework:checker-qual:${checkerFrameworkVersion}"
+	checkerFramework "org.checkerframework:checker:${checkerFrameworkVersion}"
+}
+configurations.all {
+	resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
 }
 
 dependencies {
@@ -63,3 +88,5 @@ shadowJar {
 }
 
 defaultTasks 'clean', 'shadowJar'
+
+
