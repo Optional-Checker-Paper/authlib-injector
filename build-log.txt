@@ -1,0 +1,1338 @@
+> Task :createCheckerFrameworkManifest
+
+> Task :compileJava
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/AuthlibInjector.java:113: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private static Optional<String> getPrefetchedResponse() {
+	                                ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/AuthlibInjector.java:113: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private static Optional<String> getPrefetchedResponse() {
+	                                ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/AuthlibInjector.java:121: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return Optional.ofNullable(prefetched);
+		                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/AuthlibInjector.java:121: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+		return Optional.ofNullable(prefetched);
+		                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/AuthlibInjector.java:121: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+		return Optional.ofNullable(prefetched);
+		               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/AuthlibInjector.java:136: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		Optional<String> prefetched = getPrefetchedResponse();
+		                 ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/AuthlibInjector.java:136: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		Optional<String> prefetched = getPrefetchedResponse();
+		                                                   ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/AuthlibInjector.java:137: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+		if (prefetched.isPresent()) {
+		                        ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/AuthlibInjector.java:137: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+		if (prefetched.isPresent()) {
+		              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/AuthlibInjector.java:141: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+				metadataResponse = new String(Base64.getDecoder().decode(removeNewLines(prefetched.get())), UTF_8);
+				                                                                                      ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/AuthlibInjector.java:141: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+				metadataResponse = new String(Base64.getDecoder().decode(removeNewLines(prefetched.get())), UTF_8);
+				                                                                                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/AuthlibInjector.java:145: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+						+ prefetched.get());
+						                ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/AuthlibInjector.java:145: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+						+ prefetched.get());
+						            ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/AuthlibInjector.java:299: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+		config.getDecodedPublickey().ifPresent(YggdrasilKeyTransformUnit.PUBLIC_KEYS::add);
+		                                      ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/AuthlibInjector.java:299: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+		config.getDecodedPublickey().ifPresent(YggdrasilKeyTransformUnit.PUBLIC_KEYS::add);
+		                            ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/ClassTransformer.java:146: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+				Optional<ClassVisitor> visitor = units[i].transform(classLoader, className, chain, ctx);
+				                       ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/ClassTransformer.java:146: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+				Optional<ClassVisitor> visitor = units[i].transform(classLoader, className, chain, ctx);
+				                                                   ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/ClassTransformer.java:147: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+				if (!visitor.isPresent())
+				                      ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/ClassTransformer.java:147: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+				if (!visitor.isPresent())
+				            ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/ClassTransformer.java:150: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+				chain = visitor.get();
+				                   ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/ClassTransformer.java:150: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+				chain = visitor.get();
+				               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/ClassTransformer.java:242: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		public Optional<byte[]> finish() {
+		                        ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/ClassTransformer.java:242: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		public Optional<byte[]> finish() {
+		                        ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/ClassTransformer.java:244: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+				return Optional.empty();
+				                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/ClassTransformer.java:244: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+				return Optional.empty();
+				                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/ClassTransformer.java:244: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+				return Optional.empty();
+				               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/ClassTransformer.java:242: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		public Optional<byte[]> finish() {
+		                        ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/ClassTransformer.java:252: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.of(classBuffer);
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/ClassTransformer.java:252: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(classBuffer);
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/ClassTransformer.java:252: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(classBuffer);
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/ClassTransformer.java:290: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+				Optional<byte[]> transformResult = handle.finish();
+				                 ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/ClassTransformer.java:290: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+				Optional<byte[]> transformResult = handle.finish();
+				                                                ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/ClassTransformer.java:291: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+				if (Config.printUntransformedClass && !transformResult.isPresent()) {
+				                                                                ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/ClassTransformer.java:291: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+				if (Config.printUntransformedClass && !transformResult.isPresent()) {
+				                                                      ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/ClassTransformer.java:305: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+				return transformResult.orElse(null);
+				                             ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/ClassTransformer.java:305: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+				return transformResult.orElse(null);
+				                      ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:50: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+						.orElse(emptyList());
+						       ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:50: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+						.orElse(emptyList());
+						^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:47: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+						.map(it -> asJsonArray(it).stream()
+						    ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:47: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+						.map(it -> asJsonArray(it).stream()
+						^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:46: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+				ofNullable(response.get("skinDomains"))
+				          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		Optional<PublicKey> decodedPublickey =
+		                    ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:55: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+						.map(KeyUtils::parseSignaturePublicKey);
+						    ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:55: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+						.map(KeyUtils::parseSignaturePublicKey);
+						    ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:55: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+						.map(KeyUtils::parseSignaturePublicKey);
+						^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+						.map(JsonUtils::asJsonString)
+						    ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+						.map(JsonUtils::asJsonString)
+						^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+				ofNullable(response.get("signaturePublickey"))
+				          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:60: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+						.orElse(emptyMap());
+						       ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:60: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+						.orElse(emptyMap());
+						^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:59: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+						.map(it -> (Map<String, Object>) new TreeMap<>(asJsonObject(it)))
+						    ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:59: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+						.map(it -> (Map<String, Object>) new TreeMap<>(asJsonObject(it)))
+						^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+				ofNullable(response.get("meta"))
+				          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:62: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return new APIMetadata(apiRoot, unmodifiableList(skinDomains), unmodifiableMap(meta), decodedPublickey);
+		                                                                                      ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:67: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<PublicKey> decodedPublickey;
+	                            ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:70: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public APIMetadata(String apiRoot, List<String> skinDomains, Map<String, Object> meta, Optional<PublicKey> decodedPublickey) {
+	                                                                                                           ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:74: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.decodedPublickey = requireNonNull(decodedPublickey);
+		    ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:74: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.decodedPublickey = requireNonNull(decodedPublickey);
+		                                      ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:74: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		this.decodedPublickey = requireNonNull(decodedPublickey);
+		                                       ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:89: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<PublicKey> getDecodedPublickey() {
+	                           ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:89: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<PublicKey> getDecodedPublickey() {
+	                           ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:90: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return decodedPublickey;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/APIMetadata.java:95: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return format("APIMetadata [apiRoot={0}, skinDomains={1}, decodedPublickey={2}, meta={3}]", apiRoot, skinDomains, decodedPublickey, meta);
+		                                                                                                                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLFilter.java:40: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	Optional<Response> handle(String domain, String path, IHTTPSession session) throws IOException;
+	                   ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/TransformUnit.java:24: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext context);
+	                       ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/yggdrasil/YggdrasilClient.java:79: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<UUID> queryUUID(String name) throws UncheckedIOException {
+	                      ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/yggdrasil/YggdrasilClient.java:79: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<UUID> queryUUID(String name) throws UncheckedIOException {
+	                      ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/yggdrasil/YggdrasilClient.java:80: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return Optional.ofNullable(queryUUIDs(singleton(name)).get(name));
+		                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/yggdrasil/YggdrasilClient.java:80: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+		return Optional.ofNullable(queryUUIDs(singleton(name)).get(name));
+		                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/yggdrasil/YggdrasilClient.java:80: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+		return Optional.ofNullable(queryUUIDs(singleton(name)).get(name));
+		               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/yggdrasil/YggdrasilClient.java:83: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<GameProfile> queryProfile(UUID uuid, boolean withSignature) throws UncheckedIOException {
+	                             ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/yggdrasil/YggdrasilClient.java:83: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<GameProfile> queryProfile(UUID uuid, boolean withSignature) throws UncheckedIOException {
+	                             ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/yggdrasil/YggdrasilClient.java:96: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/yggdrasil/YggdrasilClient.java:96: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/yggdrasil/YggdrasilClient.java:96: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/yggdrasil/YggdrasilClient.java:83: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<GameProfile> queryProfile(UUID uuid, boolean withSignature) throws UncheckedIOException {
+	                             ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/yggdrasil/YggdrasilClient.java:100: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return Optional.of(parseGameProfile(asJsonObject(parseJson(responseText))));
+		                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/yggdrasil/YggdrasilClient.java:100: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		return Optional.of(parseGameProfile(asJsonObject(parseJson(responseText))));
+		                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/yggdrasil/YggdrasilClient.java:100: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		return Optional.of(parseGameProfile(asJsonObject(parseJson(responseText))));
+		               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/DefaultURLRedirector.java:44: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> redirect(String domain, String path) {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/DefaultURLRedirector.java:44: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> redirect(String domain, String path) {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/DefaultURLRedirector.java:47: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/DefaultURLRedirector.java:47: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/DefaultURLRedirector.java:47: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/DefaultURLRedirector.java:44: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> redirect(String domain, String path) {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/DefaultURLRedirector.java:50: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return Optional.of(apiRoot + subdirectory + path);
+		                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/DefaultURLRedirector.java:50: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		return Optional.of(apiRoot + subdirectory + path);
+		                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/DefaultURLRedirector.java:50: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		return Optional.of(apiRoot + subdirectory + path);
+		               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLRedirector.java:26: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	Optional<String> redirect(String domain, String path);
+	                 ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:70: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> transformURL(String inputUrl) {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:70: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> transformURL(String inputUrl) {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:73: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:73: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:73: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:70: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> transformURL(String inputUrl) {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:77: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:77: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:77: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:83: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		Optional<String> result = transform(protocol, domain, path);
+		                 ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:83: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		Optional<String> result = transform(protocol, domain, path);
+		                                   ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:84: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+		if (result.isPresent()) {
+		                    ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:84: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+		if (result.isPresent()) {
+		          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:85: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+			log(DEBUG, "Transformed url [" + inputUrl + "] to [" + result.get() + "]");
+			                                                                 ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:85: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+			log(DEBUG, "Transformed url [" + inputUrl + "] to [" + result.get() + "]");
+			                                                             ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:70: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<String> transformURL(String inputUrl) {
+	                        ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:87: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return result;
+		       ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:90: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> transform(String protocol, String domain, String path) {
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:90: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> transform(String protocol, String domain, String path) {
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:100: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.of("http://127.0.0.1:" + getLocalApiPort() + "/" + protocol + "/" + domain + path);
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:100: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of("http://127.0.0.1:" + getLocalApiPort() + "/" + protocol + "/" + domain + path);
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:100: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of("http://127.0.0.1:" + getLocalApiPort() + "/" + protocol + "/" + domain + path);
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:90: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> transform(String protocol, String domain, String path) {
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:103: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return redirector.redirect(domain, path);
+		                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:140: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+							Optional<Response> result;
+							                   ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:142: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+								result = filter.handle(domain, path, session);
+								^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:142: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+								result = filter.handle(domain, path, session);
+								                      ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:148: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+							if (result.isPresent()) {
+							                    ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:148: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+							if (result.isPresent()) {
+							          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:150: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+								return result.get();
+								                 ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:150: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+								return result.get();
+								             ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:156: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElseGet(java.util.function.Supplier<? extends T>) [METHOD]
+							.orElseGet(() -> protocol + "://" + domain + path);
+							          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/URLProcessor.java:156: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElseGet(java.util.function.Supplier<? extends T>) [METHOD]
+							.orElseGet(() -> protocol + "://" + domain + path);
+							^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/AntiFeaturesFilter.java:42: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Response> handle(String domain, String path, IHTTPSession session) throws IOException {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/AntiFeaturesFilter.java:42: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Response> handle(String domain, String path, IHTTPSession session) throws IOException {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/AntiFeaturesFilter.java:44: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.of(Response.newFixedLength(Status.OK, CONTENT_TYPE_JSON, RESPONSE_PRIVILEGES));
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/AntiFeaturesFilter.java:44: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(Response.newFixedLength(Status.OK, CONTENT_TYPE_JSON, RESPONSE_PRIVILEGES));
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/AntiFeaturesFilter.java:44: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(Response.newFixedLength(Status.OK, CONTENT_TYPE_JSON, RESPONSE_PRIVILEGES));
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/AntiFeaturesFilter.java:42: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Response> handle(String domain, String path, IHTTPSession session) throws IOException {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/AntiFeaturesFilter.java:46: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.of(Response.newFixedLength(Status.OK, CONTENT_TYPE_JSON, RESPONSE_PLAYER_ATTRIBUTES));
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/AntiFeaturesFilter.java:46: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(Response.newFixedLength(Status.OK, CONTENT_TYPE_JSON, RESPONSE_PLAYER_ATTRIBUTES));
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/AntiFeaturesFilter.java:46: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(Response.newFixedLength(Status.OK, CONTENT_TYPE_JSON, RESPONSE_PLAYER_ATTRIBUTES));
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/AntiFeaturesFilter.java:42: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Response> handle(String domain, String path, IHTTPSession session) throws IOException {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/AntiFeaturesFilter.java:48: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.of(Response.newFixedLength(Status.OK, CONTENT_TYPE_JSON, RESPONSE_PRIVACY_BLOCKLIST));
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/AntiFeaturesFilter.java:48: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(Response.newFixedLength(Status.OK, CONTENT_TYPE_JSON, RESPONSE_PRIVACY_BLOCKLIST));
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/AntiFeaturesFilter.java:48: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(Response.newFixedLength(Status.OK, CONTENT_TYPE_JSON, RESPONSE_PRIVACY_BLOCKLIST));
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/AntiFeaturesFilter.java:42: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Response> handle(String domain, String path, IHTTPSession session) throws IOException {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/AntiFeaturesFilter.java:50: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.of(Response.newFixedLength(Status.NOT_FOUND, CONTENT_TYPE_TEXT, ""));
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/AntiFeaturesFilter.java:50: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(Response.newFixedLength(Status.NOT_FOUND, CONTENT_TYPE_TEXT, ""));
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/AntiFeaturesFilter.java:50: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(Response.newFixedLength(Status.NOT_FOUND, CONTENT_TYPE_TEXT, ""));
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/AntiFeaturesFilter.java:42: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Response> handle(String domain, String path, IHTTPSession session) throws IOException {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/AntiFeaturesFilter.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/AntiFeaturesFilter.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/AntiFeaturesFilter.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/ProfileKeyFilter.java:47: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Response> handle(String domain, String path, IHTTPSession session) throws IOException {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/ProfileKeyFilter.java:47: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Response> handle(String domain, String path, IHTTPSession session) throws IOException {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/ProfileKeyFilter.java:49: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.of(Response.newFixedLength(Status.OK, CONTENT_TYPE_JSON, makeDummyResponse().toJSONString()));
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/ProfileKeyFilter.java:49: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(Response.newFixedLength(Status.OK, CONTENT_TYPE_JSON, makeDummyResponse().toJSONString()));
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/ProfileKeyFilter.java:49: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(Response.newFixedLength(Status.OK, CONTENT_TYPE_JSON, makeDummyResponse().toJSONString()));
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/ProfileKeyFilter.java:47: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Response> handle(String domain, String path, IHTTPSession session) throws IOException {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/ProfileKeyFilter.java:51: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return Optional.empty();
+		                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/ProfileKeyFilter.java:51: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+		return Optional.empty();
+		                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/ProfileKeyFilter.java:51: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+		return Optional.empty();
+		               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/PublickeysFilter.java:39: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Response> handle(String domain, String path, IHTTPSession session) throws IOException {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/PublickeysFilter.java:39: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Response> handle(String domain, String path, IHTTPSession session) throws IOException {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/PublickeysFilter.java:41: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.of(Response.newFixedLength(Status.OK, CONTENT_TYPE_JSON, makePublickeysResponse().toJSONString()));
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/PublickeysFilter.java:41: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(Response.newFixedLength(Status.OK, CONTENT_TYPE_JSON, makePublickeysResponse().toJSONString()));
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/PublickeysFilter.java:41: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(Response.newFixedLength(Status.OK, CONTENT_TYPE_JSON, makePublickeysResponse().toJSONString()));
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/PublickeysFilter.java:39: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Response> handle(String domain, String path, IHTTPSession session) throws IOException {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/PublickeysFilter.java:43: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return Optional.empty();
+		                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/PublickeysFilter.java:43: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+		return Optional.empty();
+		                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/PublickeysFilter.java:43: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+		return Optional.empty();
+		               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryUUIDsFilter.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Response> handle(String domain, String path, IHTTPSession session) throws IOException {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryUUIDsFilter.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Response> handle(String domain, String path, IHTTPSession session) throws IOException {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryUUIDsFilter.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.of(Response.newFixedLength(Status.OK, CONTENT_TYPE_JSON,
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryUUIDsFilter.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(Response.newFixedLength(Status.OK, CONTENT_TYPE_JSON,
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryUUIDsFilter.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(Response.newFixedLength(Status.OK, CONTENT_TYPE_JSON,
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryUUIDsFilter.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Response> handle(String domain, String path, IHTTPSession session) throws IOException {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryUUIDsFilter.java:64: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryUUIDsFilter.java:64: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryUUIDsFilter.java:64: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Response> handle(String domain, String path, IHTTPSession session) throws IOException {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Response> handle(String domain, String path, IHTTPSession session) throws IOException {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return empty();
+			            ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return empty();
+			            ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Response> handle(String domain, String path, IHTTPSession session) throws IOException {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:59: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return empty();
+			            ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:59: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return empty();
+			            ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Response> handle(String domain, String path, IHTTPSession session) throws IOException {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:65: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.of(Response.newFixedLength(Status.NO_CONTENT, null, null));
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:65: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(Response.newFixedLength(Status.NO_CONTENT, null, null));
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:65: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(Response.newFixedLength(Status.NO_CONTENT, null, null));
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:74: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		Optional<GameProfile> response;
+		                      ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:76: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			response = mojangClient.queryProfile(QueryUUIDsFilter.unmaskUUID(uuid), withSignature);
+			^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:76: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			response = mojangClient.queryProfile(QueryUUIDsFilter.unmaskUUID(uuid), withSignature);
+			                                    ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:77: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+			response.ifPresent(profile -> {
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:77: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+			response.ifPresent(profile -> {
+			        ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:82: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			response = customClient.queryProfile(uuid, withSignature);
+			^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:82: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			response = customClient.queryProfile(uuid, withSignature);
+			                                    ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:85: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+		if (response.isPresent()) {
+		                      ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:85: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+		if (response.isPresent()) {
+		            ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Response> handle(String domain, String path, IHTTPSession session) throws IOException {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:86: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.of(Response.newFixedLength(Status.OK, null, YggdrasilResponseBuilder.queryProfile(response.get(), withSignature)));
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:86: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(Response.newFixedLength(Status.OK, null, YggdrasilResponseBuilder.queryProfile(response.get(), withSignature)));
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:86: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+			return Optional.of(Response.newFixedLength(Status.OK, null, YggdrasilResponseBuilder.queryProfile(response.get(), withSignature)));
+			                                                                                                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:86: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+			return Optional.of(Response.newFixedLength(Status.OK, null, YggdrasilResponseBuilder.queryProfile(response.get(), withSignature)));
+			                                                                                                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:86: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(Response.newFixedLength(Status.OK, null, YggdrasilResponseBuilder.queryProfile(response.get(), withSignature)));
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Response> handle(String domain, String path, IHTTPSession session) throws IOException {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:88: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.of(Response.newFixedLength(Status.NO_CONTENT, null, null));
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:88: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(Response.newFixedLength(Status.NO_CONTENT, null, null));
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/QueryProfileFilter.java:88: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(Response.newFixedLength(Status.NO_CONTENT, null, null));
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Response> handle(String domain, String path, IHTTPSession session) {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Response> handle(String domain, String path, IHTTPSession session) {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:63: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return empty();
+			            ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:63: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return empty();
+			            ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Response> handle(String domain, String path, IHTTPSession session) {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:66: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return empty();
+			            ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:66: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return empty();
+			            ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:73: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		Optional<String> skinUrl;
+		                 ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:75: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			skinUrl = upstream.queryUUID(username)
+			^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:79: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+					.flatMap(texturesPayload -> obtainTextureUrl(texturesPayload, "SKIN"));
+					        ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:79: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>flatMap(java.util.function.Function<? super T,java.util.Optional<U>>) [METHOD]
+					.flatMap(texturesPayload -> obtainTextureUrl(texturesPayload, "SKIN"));
+					        ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:79: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+					.flatMap(texturesPayload -> obtainTextureUrl(texturesPayload, "SKIN"));
+					                                            ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:79: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>flatMap(java.util.function.Function<? super T,java.util.Optional<U>>) [METHOD]
+					.flatMap(texturesPayload -> obtainTextureUrl(texturesPayload, "SKIN"));
+					^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:78: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+					.map(property -> asString(Base64.getDecoder().decode(property.value)))
+					    ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:78: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+					.map(property -> asString(Base64.getDecoder().decode(property.value)))
+					^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:77: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>flatMap(java.util.function.Function<? super T,java.util.Optional<U>>) [METHOD]
+					.flatMap(profile -> Optional.ofNullable(profile.properties.get("textures")))
+					        ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:77: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+					.flatMap(profile -> Optional.ofNullable(profile.properties.get("textures")))
+					                                       ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:77: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+					.flatMap(profile -> Optional.ofNullable(profile.properties.get("textures")))
+					                                       ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:77: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+					.flatMap(profile -> Optional.ofNullable(profile.properties.get("textures")))
+					                            ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:77: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>flatMap(java.util.function.Function<? super T,java.util.Optional<U>>) [METHOD]
+					.flatMap(profile -> Optional.ofNullable(profile.properties.get("textures")))
+					^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:76: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>flatMap(java.util.function.Function<? super T,java.util.Optional<U>>) [METHOD]
+					.flatMap(uuid -> upstream.queryProfile(uuid, false))
+					        ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:76: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+					.flatMap(uuid -> upstream.queryProfile(uuid, false))
+					                                      ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:76: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>flatMap(java.util.function.Function<? super T,java.util.Optional<U>>) [METHOD]
+					.flatMap(uuid -> upstream.queryProfile(uuid, false))
+					^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:84: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+		if (skinUrl.isPresent()) {
+		                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:84: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+		if (skinUrl.isPresent()) {
+		           ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:85: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+			String url = skinUrl.get();
+			                        ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:85: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+			String url = skinUrl.get();
+			                    ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Response> handle(String domain, String path, IHTTPSession session) {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:94: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return of(Response.newFixedLength(Status.OK, "image/png", new ByteArrayInputStream(data), data.length));
+			         ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:94: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return of(Response.newFixedLength(Status.OK, "image/png", new ByteArrayInputStream(data), data.length));
+			         ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<Response> handle(String domain, String path, IHTTPSession session) {
+	                          ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:98: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return of(Response.newFixedLength(Status.NOT_FOUND, null, null));
+			         ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:98: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return of(Response.newFixedLength(Status.NOT_FOUND, null, null));
+			         ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:102: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> obtainTextureUrl(String texturesPayload, String textureType) throws UncheckedIOException {
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:102: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private Optional<String> obtainTextureUrl(String texturesPayload, String textureType) throws UncheckedIOException {
+	                         ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:108: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+				.map(it -> ofNullable(it.get("url"))
+				    ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:108: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+				.map(it -> ofNullable(it.get("url"))
+				    ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:110: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<X>orElseThrow(java.util.function.Supplier<? extends X>) [METHOD]
+						.orElseThrow(() -> newUncheckedIOException("Invalid JSON: Missing texture url")));
+						            ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:110: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<X>orElseThrow(java.util.function.Supplier<? extends X>) [METHOD]
+						.orElseThrow(() -> newUncheckedIOException("Invalid JSON: Missing texture url")));
+						^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:109: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+						.map(JsonUtils::asJsonString)
+						    ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:109: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+						.map(JsonUtils::asJsonString)
+						^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:108: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+				.map(it -> ofNullable(it.get("url"))
+				                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:108: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+				.map(it -> ofNullable(it.get("url"))
+				^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:107: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+				.map(JsonUtils::asJsonObject)
+				    ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:107: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+				.map(JsonUtils::asJsonObject)
+				^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/httpd/LegacySkinAPIFilter.java:106: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+		return ofNullable(textures.get(textureType))
+		                 ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:28: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:31: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			Optional<String> transformed = transformLdc(constant);
+			                 ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:31: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			Optional<String> transformed = transformLdc(constant);
+			                                           ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:32: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+			if (transformed.isPresent() && !transformed.get().equals(constant)) {
+			                         ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:32: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+			if (transformed.isPresent() && !transformed.get().equals(constant)) {
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:32: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+			if (transformed.isPresent() && !transformed.get().equals(constant)) {
+			                                               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:32: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+			if (transformed.isPresent() && !transformed.get().equals(constant)) {
+			                                           ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:28: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:38: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:38: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:38: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:28: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:40: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return Optional.of(new ClassVisitor(ASM9, writer) {
+		                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:40: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		return Optional.of(new ClassVisitor(ASM9, writer) {
+		                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:49: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+							Optional<String> transformed = transformLdc((String) cst);
+							                 ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:49: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+							Optional<String> transformed = transformLdc((String) cst);
+							                                           ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:50: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+							if (transformed.isPresent() && !transformed.get().equals(cst)) {
+							                         ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:50: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+							if (transformed.isPresent() && !transformed.get().equals(cst)) {
+							               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:50: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+							if (transformed.isPresent() && !transformed.get().equals(cst)) {
+							                                               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:50: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+							if (transformed.isPresent() && !transformed.get().equals(cst)) {
+							                                           ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+								super.visitLdcInsn(transformed.get());
+								                                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+								super.visitLdcInsn(transformed.get());
+								                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:66: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+								Optional<String> transformed = transformLdc(constant);
+								                 ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:66: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+								Optional<String> transformed = transformLdc(constant);
+								                                           ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:67: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+								if (transformed.isPresent() && !transformed.get().equals(constant)) {
+								                         ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:67: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+								if (transformed.isPresent() && !transformed.get().equals(constant)) {
+								               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:67: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+								if (transformed.isPresent() && !transformed.get().equals(constant)) {
+								                                               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:67: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+								if (transformed.isPresent() && !transformed.get().equals(constant)) {
+								                                           ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:69: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+									bootstrapMethodArguments[i] = transformed.get();
+									                                             ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:69: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+									bootstrapMethodArguments[i] = transformed.get();
+									                                         ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:40: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		return Optional.of(new ClassVisitor(ASM9, writer) {
+		               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/LdcTransformUnit.java:80: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	protected abstract Optional<String> transformLdc(String input);
+	                                    ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/ConstantURLTransformUnit.java:33: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	protected Optional<String> transformLdc(String input) {
+	                           ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/ConstantURLTransformUnit.java:33: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	protected Optional<String> transformLdc(String input) {
+	                           ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/ConstantURLTransformUnit.java:34: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return urlProcessor.transformURL(input);
+		                                ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/BungeeCordProfileKeyTransformUnit.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/BungeeCordProfileKeyTransformUnit.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/BungeeCordProfileKeyTransformUnit.java:37: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/BungeeCordProfileKeyTransformUnit.java:37: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/BungeeCordProfileKeyTransformUnit.java:37: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/BungeeCordProfileKeyTransformUnit.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/BungeeCordProfileKeyTransformUnit.java:57: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/BungeeCordProfileKeyTransformUnit.java:57: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/BungeeCordProfileKeyTransformUnit.java:57: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/CitizensTransformer.java:46: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/CitizensTransformer.java:46: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/CitizensTransformer.java:48: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/CitizensTransformer.java:48: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/CitizensTransformer.java:48: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/CitizensTransformer.java:46: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/CitizensTransformer.java:74: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return Optional.empty();
+		                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/CitizensTransformer.java:74: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+		return Optional.empty();
+		                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/CitizensTransformer.java:74: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+		return Optional.empty();
+		               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/UsernameCharacterCheckTransformer.java:33: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext context) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/UsernameCharacterCheckTransformer.java:33: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext context) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/UsernameCharacterCheckTransformer.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/UsernameCharacterCheckTransformer.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/UsernameCharacterCheckTransformer.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/UsernameCharacterCheckTransformer.java:33: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext context) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/UsernameCharacterCheckTransformer.java:38: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return Optional.of(new ClassVisitor(ASM9, writer) {
+		                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/UsernameCharacterCheckTransformer.java:38: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		return Optional.of(new ClassVisitor(ASM9, writer) {
+		                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/UsernameCharacterCheckTransformer.java:38: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		return Optional.of(new ClassVisitor(ASM9, writer) {
+		               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/SkinWhitelistTransformUnit.java:94: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/SkinWhitelistTransformUnit.java:94: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/SkinWhitelistTransformUnit.java:96: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/SkinWhitelistTransformUnit.java:96: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/SkinWhitelistTransformUnit.java:96: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/SkinWhitelistTransformUnit.java:94: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/SkinWhitelistTransformUnit.java:118: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/SkinWhitelistTransformUnit.java:118: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/SkinWhitelistTransformUnit.java:118: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974Workaround.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974Workaround.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974Workaround.java:63: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974Workaround.java:63: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974Workaround.java:63: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974Workaround.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974Workaround.java:82: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974Workaround.java:82: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974Workaround.java:82: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/YggdrasilKeyTransformUnit.java:137: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/YggdrasilKeyTransformUnit.java:137: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/YggdrasilKeyTransformUnit.java:139: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/YggdrasilKeyTransformUnit.java:139: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/YggdrasilKeyTransformUnit.java:139: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/YggdrasilKeyTransformUnit.java:137: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/YggdrasilKeyTransformUnit.java:164: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/YggdrasilKeyTransformUnit.java:164: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/YggdrasilKeyTransformUnit.java:164: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/YggdrasilKeyTransformUnit.java:137: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/YggdrasilKeyTransformUnit.java:201: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/YggdrasilKeyTransformUnit.java:201: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/YggdrasilKeyTransformUnit.java:201: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/ConcatenateURLTransformUnit.java:50: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/ConcatenateURLTransformUnit.java:50: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/ConcatenateURLTransformUnit.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/ConcatenateURLTransformUnit.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/ConcatenateURLTransformUnit.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/ConcatenateURLTransformUnit.java:50: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/ConcatenateURLTransformUnit.java:72: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/ConcatenateURLTransformUnit.java:72: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/ConcatenateURLTransformUnit.java:72: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/VelocityProfileKeyTransformUnit.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/VelocityProfileKeyTransformUnit.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/VelocityProfileKeyTransformUnit.java:37: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/VelocityProfileKeyTransformUnit.java:37: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/VelocityProfileKeyTransformUnit.java:37: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/VelocityProfileKeyTransformUnit.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/VelocityProfileKeyTransformUnit.java:57: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/VelocityProfileKeyTransformUnit.java:57: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/VelocityProfileKeyTransformUnit.java:57: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/PaperUsernameCheckTransformer.java:33: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext context) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/PaperUsernameCheckTransformer.java:33: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext context) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/PaperUsernameCheckTransformer.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/PaperUsernameCheckTransformer.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/PaperUsernameCheckTransformer.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/PaperUsernameCheckTransformer.java:33: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext context) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/PaperUsernameCheckTransformer.java:38: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return Optional.of(new ClassVisitor(ASM9, writer) {
+		                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/PaperUsernameCheckTransformer.java:38: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		return Optional.of(new ClassVisitor(ASM9, writer) {
+		                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/PaperUsernameCheckTransformer.java:38: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+		return Optional.of(new ClassVisitor(ASM9, writer) {
+		               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MainArgumentsTransformer.java:40: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MainArgumentsTransformer.java:40: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MainArgumentsTransformer.java:42: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MainArgumentsTransformer.java:42: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MainArgumentsTransformer.java:42: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MainArgumentsTransformer.java:40: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MainArgumentsTransformer.java:63: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MainArgumentsTransformer.java:63: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MainArgumentsTransformer.java:63: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MainArgumentsTransformer.java:95: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public static Optional<String> inferVersionSeries(String[] args) {
+	                               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MainArgumentsTransformer.java:95: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public static Optional<String> inferVersionSeries(String[] args) {
+	                               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MainArgumentsTransformer.java:104: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+					return Optional.of(arg);
+					                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MainArgumentsTransformer.java:104: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+					return Optional.of(arg);
+					                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MainArgumentsTransformer.java:104: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+					return Optional.of(arg);
+					               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MainArgumentsTransformer.java:95: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public static Optional<String> inferVersionSeries(String[] args) {
+	                               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MainArgumentsTransformer.java:112: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return Optional.empty();
+		                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MainArgumentsTransformer.java:112: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+		return Optional.empty();
+		                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MainArgumentsTransformer.java:112: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+		return Optional.empty();
+		               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MainArgumentsTransformer.java:117: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+			inferVersionSeries(args).ifPresent(versionSeries -> {
+			                                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MainArgumentsTransformer.java:117: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+			inferVersionSeries(args).ifPresent(versionSeries -> {
+			                        ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/BungeeCordAllowedCharactersTransformer.java:36: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext context) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/BungeeCordAllowedCharactersTransformer.java:36: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext context) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/BungeeCordAllowedCharactersTransformer.java:38: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/BungeeCordAllowedCharactersTransformer.java:38: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/BungeeCordAllowedCharactersTransformer.java:38: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/BungeeCordAllowedCharactersTransformer.java:36: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext context) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/BungeeCordAllowedCharactersTransformer.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return Optional.empty();
+		                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/BungeeCordAllowedCharactersTransformer.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+		return Optional.empty();
+		                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/BungeeCordAllowedCharactersTransformer.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+		return Optional.empty();
+		               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/AuthlibLogInterceptor.java:189: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<X>orElseThrow(java.util.function.Supplier<? extends X>) [METHOD]
+				.findFirst().orElseThrow(NoSuchMethodException::new);
+				                        ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/AuthlibLogInterceptor.java:189: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<X>orElseThrow(java.util.function.Supplier<? extends X>) [METHOD]
+				.findFirst().orElseThrow(NoSuchMethodException::new);
+				            ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/AuthlibLogInterceptor.java:227: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/AuthlibLogInterceptor.java:227: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/AuthlibLogInterceptor.java:231: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+					return Optional.empty();
+					                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/AuthlibLogInterceptor.java:231: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+					return Optional.empty();
+					                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/AuthlibLogInterceptor.java:231: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+					return Optional.empty();
+					               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/AuthlibLogInterceptor.java:227: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/AuthlibLogInterceptor.java:234: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/AuthlibLogInterceptor.java:234: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/AuthlibLogInterceptor.java:234: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(new ClassVisitor(ASM9, writer) {
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/AuthlibLogInterceptor.java:227: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+	                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/AuthlibLogInterceptor.java:255: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		return Optional.empty();
+		                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/AuthlibLogInterceptor.java:255: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+		return Optional.empty();
+		                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/AuthlibLogInterceptor.java:255: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+		return Optional.empty();
+		               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private static final Map<Object, Optional<Object>> markedGameProfiles = new WeakIdentityHashMap<>();
+	                                         ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			markedGameProfiles.putIfAbsent(gp, Optional.empty());
+			                                                 ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			markedGameProfiles.putIfAbsent(gp, Optional.empty());
+			                                                 ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			markedGameProfiles.putIfAbsent(gp, Optional.empty());
+			                                           ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:68: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			Optional<Object> value = markedGameProfiles.get(gp);
+			                 ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:68: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			Optional<Object> value = markedGameProfiles.get(gp);
+			                                               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:70: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+				if (value.isPresent()) {
+				                   ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:70: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+				if (value.isPresent()) {
+				         ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:71: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+					return value.get();
+					                ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:71: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+					return value.get();
+					            ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:95: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+						markedGameProfiles.put(gp, Optional.of(filledGameProfile));
+						                                      ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:95: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+						markedGameProfiles.put(gp, Optional.of(filledGameProfile));
+						                                      ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:95: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+						markedGameProfiles.put(gp, Optional.of(filledGameProfile));
+						                                   ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:108: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+		                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:108: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+		                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:109: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return detectNotchName(className, "bbs", "net.minecraft.util.Session", isNotchName -> new ClassVisitor(ASM9, writer) {
+			                      ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:142: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+		                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:142: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+		public Optional<ClassVisitor> transform(ClassLoader classLoader, String className, ClassVisitor writer, TransformContext ctx) {
+		                              ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:143: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return detectNotchName(className, "gb", "net.minecraft.network.play.server.S0CPacketSpawnPlayer", isNotchName -> new ClassVisitor(ASM9, writer) {
+			                      ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:183: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private static <T> Optional<T> detectNotchName(String input, String ifNotchName, String ifDeobf, Function<Boolean, T> callback) {
+	                               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:183: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private static <T> Optional<T> detectNotchName(String input, String ifNotchName, String ifDeobf, Function<Boolean, T> callback) {
+	                               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:185: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.of(callback.apply(true));
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:185: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(callback.apply(true));
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:185: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(callback.apply(true));
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:183: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private static <T> Optional<T> detectNotchName(String input, String ifNotchName, String ifDeobf, Function<Boolean, T> callback) {
+	                               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:187: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.of(callback.apply(false));
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:187: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(callback.apply(false));
+			                  ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:187: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+			return Optional.of(callback.apply(false));
+			               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:183: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+	private static <T> Optional<T> detectNotchName(String input, String ifNotchName, String ifDeobf, Function<Boolean, T> callback) {
+	                               ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:189: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:189: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			                     ^
+/tmp/experiments/optional-paper-counts-repos/authlib-injector/src/main/java/moe/yushi/authlibinjector/transform/support/MC52974_1710Workaround.java:189: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+			return Optional.empty();
+			               ^
+442 warnings
+
+> Task :processResources
+> Task :classes
+> Task :jar
+> Task :assemble
+
+BUILD SUCCESSFUL in 6s
+4 actionable tasks: 4 executed
