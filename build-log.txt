@@ -1334,5 +1334,5 @@
 > Task :jar
 > Task :assemble
 
-BUILD SUCCESSFUL in 6s
+BUILD SUCCESSFUL in 7s
 4 actionable tasks: 4 executed
